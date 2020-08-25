@@ -133,8 +133,12 @@ docker tag 21013cfc729e okmanaiu/eng67.ugne.nginx:testing_own_index
 ```
 docker push okmanaiu/eng67.ugne.nginx
 ```
+## Step 10: View the logs of nginx container and store them into nginx_logs.txt file
 
+- ` docker logs <container_id>
+- ` docker logs <container_id> >> nginx_logs.txt
 
+- enter `ls` and you should be able to see the logs! (all made changes)
 
 
 
