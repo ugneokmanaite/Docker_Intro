@@ -105,6 +105,7 @@ https://hub.docker.com/_/nginx
 FROM nginx:latest
 COPY ./index.html /usr/share/nginx/html/index.html
 ```
+Used to generate a new image that includes the necessary content
 
 FROM = allows us to build custom image by using the base image. This will pull nginx:latest image to our local machine and then build our custom image on top of it 
 
